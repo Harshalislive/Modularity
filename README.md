@@ -1,1 +1,6 @@
 # Modularity
+Modularity is designed to evaluate not just how many edges cross a cut between communities but whether the observed division is surprising compared to a null model baseline. This null model preserves the degree of each vertex (so nodes with many edges in the original network maintain their expected connectivity) but otherwise connects edges randomly. In this model, each node has a number of "stubs" or half-edges equal to its degree, and these stubs are randomly paired.
+
+The modularity compares the actual number of within-community edges in the observed network to the expected number of such edges under this random null model. If the observed number of within-group edges is greater than expected (or equivalently, fewer edges cross between communities than expected), the community division is considered meaningful or interesting. Otherwise, if it does not differ from the random baseline, the division might be noise, not a genuine community split.
+
+This idea turns community detection into a statistically meaningful optimization problem—finding the partitioning of the network that maximizes the difference between observed within-community edges and what would be expected by chance. The result is what is called the modularity score, which is widely used and intuitive for community structure detection.
