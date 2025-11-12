@@ -1,13 +1,14 @@
-# Modularity
 # 🧩 **Spectral Bipartition for Community Detection in the Karate Club Network**
 
 This project implements the **Spectral Bipartition method** for community detection on the classic **Zachary’s Karate Club network**.  
 
-The approach leverages the **modularity maximization framework** introduced by *Newman (2006)* to identify meaningful community structures within a network.  
-By performing **eigenvalue decomposition of the modularity matrix ($B$)**, the algorithm finds an optimal division of nodes into two communities — where nodes within a community are more densely connected than would be expected by chance.  
 
-After the initial bipartition, the method is applied **recursively** to each detected community to explore deeper hierarchical structures and evaluate potential sub-communities. This recursive spectral approach provides a detailed view of how modular organization emerges in social networks.
+Through this method, we learn to identify **meaningful communities** within a network and gain the ability to **predict how communities form and evolve**.  
+By analyzing **metric evolution**, we can also determine the **most influential nodes** that shape the structure of these communities.
 
+Additionally, we apply an **optimization technique based on the Rayleigh–Ritz theorem**, which significantly reduces computational complexity and improves algorithmic efficiency.
+
+Finally, by implementing the **Recursive Spectral Bipartitioning** approach, we iteratively uncover **sub-communities within larger groups** until no further meaningful divisions can be detected — revealing the full hierarchical structure of the network.
 ---
 
 ### **Included in this Notebook**
