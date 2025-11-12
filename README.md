@@ -1,4 +1,4 @@
-# 🧩 **Spectral Bipartition for Community Detection in the Karate Club Network**
+# **Spectral Bipartition for Community Detection in the Karate Club Network**
 
 This project implements the **Spectral Bipartition method** for community detection on the classic **Zachary’s Karate Club network**.  
 
@@ -9,6 +9,7 @@ By analyzing **metric evolution**, we can also determine the **most influential 
 Additionally, we apply an **optimization technique based on the Rayleigh–Ritz theorem**, which significantly reduces computational complexity and improves algorithmic efficiency.
 
 Finally, by implementing the **Recursive Spectral Bipartitioning** approach, we iteratively uncover **sub-communities within larger groups** until no further meaningful divisions can be detected — revealing the full hierarchical structure of the network.
+
 ---
 
 ### **Included in this Notebook**
