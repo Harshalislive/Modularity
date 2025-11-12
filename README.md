@@ -26,4 +26,3 @@ The modularity objective, modularity matrix formulation, and spectral bipartitio
 > *Proceedings of the National Academy of Sciences (PNAS)*, 103(23), 8577–8582.  
 > [https://doi.org/10.1073/pnas.0601602103](https://doi.org/10.1073/pnas.0601602103)
 
-Please ensure you **cite this paper in your report** when describing the method.
